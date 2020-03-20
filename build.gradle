@@ -58,6 +58,6 @@ dependencies {
     api "androidx.navigation:navigation-runtime:2.2.1"
 }
 
-version = '1.0.0'
+version = '1.1.0'
 group = 'net.simno.viewmodel'
 archivesBaseName = 'viewmodel-ktx'
