@@ -1,11 +1,11 @@
 buildscript {
-    ext.kotlin_version = '1.4.0'
+    ext.kotlin_version = '1.4.10'
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0-rc01'
+        classpath 'com.android.tools.build:gradle:4.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -52,10 +52,10 @@ dependencies {
     api "androidx.fragment:fragment:1.2.5"
     api "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
     api "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0"
-    api "androidx.navigation:navigation-fragment-ktx:2.3.0"
-    api "androidx.navigation:navigation-runtime:2.3.0"
+    api "androidx.navigation:navigation-fragment-ktx:2.3.1"
+    api "androidx.navigation:navigation-runtime:2.3.1"
 }
 
-version = '1.1.4'
+version = '1.1.5'
 group = 'net.simno.viewmodel'
 archivesBaseName = 'viewmodel-ktx'
