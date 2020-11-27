@@ -1,17 +1,18 @@
 buildscript {
-    ext.kotlin_version = '1.4.10'
+    ext.kotlin_version = '1.4.20'
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.android.tools.build:gradle:4.1.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 plugins {
     id 'com.github.dcendents.android-maven' version '2.1'
+    id 'com.github.ben-manes.versions' version '0.36.0'
 }
 
 allprojects {
@@ -56,6 +57,6 @@ dependencies {
     api "androidx.navigation:navigation-runtime:2.3.1"
 }
 
-version = '1.1.5'
+version = '1.1.6'
 group = 'net.simno.viewmodel'
 archivesBaseName = 'viewmodel-ktx'
